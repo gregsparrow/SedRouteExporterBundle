@@ -1,5 +1,5 @@
 {
-    "name": "sed/route-exporter-bundle",
+    "name": "sed_gs_fork/route-exporter-bundle",
     "type": "symfony-bundle",
     "description": "Tool to export Symfony's routing definitions in yml, xml or php format.",
     "homepage": "https://github.com/sed-szeged/SedRouteExporterBundle",
