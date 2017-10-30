@@ -14,8 +14,9 @@ namespace Sed\RouteExporterBundle\Tests\Exporter\Driver;
 use Sed\RouteExporterBundle\Exporter\Driver\YamlExporter;
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RouteCollection;
+use PHPUnit\Framework\TestCase;
 
-class YamlExporterTest extends \PHPUnit_Framework_TestCase
+class YamlExporterTest extends TestCase
 {
 
     protected $fixtureDirPath;

@@ -1,3 +1,5 @@
+.gitattributes
+
 # Bootstrap
 app/bootstrap*
 
@@ -14,3 +16,9 @@ app/config/parameters.yml
 
 # Composer
 composer.phar
+composer.lock
+
+# Vagrant
+puphpet/config-custom.yaml
+.vagrant
+Vagrantfile

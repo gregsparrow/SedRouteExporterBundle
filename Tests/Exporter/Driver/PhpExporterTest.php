@@ -14,8 +14,9 @@ namespace Sed\RouteExporterBundle\Tests\Exporter\Driver;
 use Sed\RouteExporterBundle\Exporter\Driver\PhpExporter;
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RouteCollection;
+use PHPUnit\Framework\TestCase;
 
-class PhpExporterTest extends \PHPUnit_Framework_TestCase
+class PhpExporterTest extends TestCase
 {
 
     protected $fixtureDirPath;
